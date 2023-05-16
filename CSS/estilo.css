@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+header .logo{
+    background-color: #ffc107; /*Background-color = mudar cor de fundo*/
+    text-align: center;
+}
+
+header .menu{
+    background-color: #ffa000;
+    display: flex; /*Ativar Flexbox*/
+    justify-content: center; /*Centralizar na horizontal*/
+    ;
+}
+
+header .menu ul{
+    margin: 0; /*margin = espaçamento externo*/
+    list-style: none; /*list-style = tirar marcador da lista*/
+}
+
+header .menu ul li{
+    display: inline-block;
+    padding: 10px 15px;
+}
+header .menu ul li a{
+    text-decoration: none; /*tirar sublinhado*/
+    color: #fdfdfd; /*muda a cor do text*/
+}
+
+main section.banner{
+    height: 600px; /*Altura*/
+    background-color: mediumslateblue; /*Cor de fundo*/
+    background-image: url(../IMG/banner-home.png); /*Imagem de fundo*/
+    background-repeat: no-repeat; /*Imagem não vai repetir*/
+    background-size: cover; /*Imagem vai cobrir todo elemento section*/
+}
+
+main section.banner h1{
+    font-size: 70;
+    text-transform: lowercase;
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0,0,0,0.36); /*Sombra no texto*/
+    padding: 100px;
+}
+
+main section.banner .container {
+    display: flex;
+    justify-content: flex-end; /* alinhamento horizontal pra direita */
+    align-items: center; /* alinhamento vertical centralizado */
+    height: 600px; /* altura */
+}
