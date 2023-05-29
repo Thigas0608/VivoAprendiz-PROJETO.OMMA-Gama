@@ -104,3 +104,49 @@ main section.receitas-principais h2{
     text-decoration: none; /*Tirar sublinhado do Link*/
 }
 
+section.banner-segundario{
+    background-image: url(../IMG/foto-avo.png);
+}
+
+section.banner-segundario .container{
+    min-height: 600px;
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column; /*Itens em coluna*/
+    justify-content: center; /*Alinhamento centralizado na vertical*/
+}
+
+section.banner-segundario .container h2{
+    font-size: 62px;
+    color: #fff;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+section.banner-segundario .container p{
+    color: #fff;
+    font-size: 24px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    width: 450px;
+}
+
+footer{
+    background-color: #ffc107;
+    color: #fff;
+    font-weight: 700px;
+    font-size: 18px;
+}
+
+footer .container{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    padding: 0 15px;
+}
+
+footer p{
+    padding: 0 15px;
+}
+
+
